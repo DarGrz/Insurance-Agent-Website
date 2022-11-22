@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "//dargrz.github.io/Insurance-Agent-Website/static/css/main.d4834491.css",
-    "main.js": "//dargrz.github.io/Insurance-Agent-Website/static/js/main.899ce0cd.js",
+    "main.js": "//dargrz.github.io/Insurance-Agent-Website/static/js/main.b105650e.js",
     "static/js/787.fc0c6302.chunk.js": "//dargrz.github.io/Insurance-Agent-Website/static/js/787.fc0c6302.chunk.js",
     "static/media/office-space.jpg": "//dargrz.github.io/Insurance-Agent-Website/static/media/office-space.f3b164edb4faaa04f203.jpg",
     "static/media/ziaja-logo.png": "//dargrz.github.io/Insurance-Agent-Website/static/media/ziaja-logo.6ccc63a63e1f7b8e5d48.png",
     "static/media/gabi-temporary.jpg": "//dargrz.github.io/Insurance-Agent-Website/static/media/gabi-temporary.4fa31b4d695842b90e12.jpg",
     "index.html": "//dargrz.github.io/Insurance-Agent-Website/index.html",
     "main.d4834491.css.map": "//dargrz.github.io/Insurance-Agent-Website/static/css/main.d4834491.css.map",
-    "main.899ce0cd.js.map": "//dargrz.github.io/Insurance-Agent-Website/static/js/main.899ce0cd.js.map",
+    "main.b105650e.js.map": "//dargrz.github.io/Insurance-Agent-Website/static/js/main.b105650e.js.map",
     "787.fc0c6302.chunk.js.map": "//dargrz.github.io/Insurance-Agent-Website/static/js/787.fc0c6302.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d4834491.css",
-    "static/js/main.899ce0cd.js"
+    "static/js/main.b105650e.js"
   ]
 }
