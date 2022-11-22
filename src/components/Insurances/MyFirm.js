@@ -1,6 +1,8 @@
 import React from "react";
 import InsuranceCard from "../../UI/InsuranceCard";
 import "./Insurances.css";
+import FirmVideo from "../../videos/company-insurance.mp4";
+import VideoBox from "./VideoBox";
 
 // &#x2714; checkmark
 
@@ -17,6 +19,9 @@ const MyFirm = () => {
       <div className="container insurance-header">
         <h3>Moja Firma</h3>
       </div>
+
+      <VideoBox video={FirmVideo} />
+
       <InsuranceCard
         className="container insurance-box"
         text={Text.text1}
