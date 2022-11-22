@@ -1,5 +1,6 @@
 .header {
   position: relative;
+  scroll-snap-type: y mandatory;
 }
 
 .container {

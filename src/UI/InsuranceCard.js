@@ -6,6 +6,7 @@ const InsuranceCard = (props) => {
     <div className={`${classes.card} ${props.className}`} style={props.style}>
       <p>&#x2714;&nbsp;</p>
       <p>{props.text}</p>
+      {props.children}
     </div>
   );
 };

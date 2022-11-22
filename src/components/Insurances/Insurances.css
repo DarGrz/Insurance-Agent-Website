@@ -5,6 +5,7 @@
 }
 .container {
   margin: 0 auto;
+  padding: 0;
 }
 
 .insurance-box {
@@ -25,11 +26,22 @@
   text-align: center;
 }
 
+.insurance-video video {
+  width: 100%;
+  margin-bottom: 10px;
+  max-height: 40vh;
+  object-fit: cover;
+  object-position: center;
+}
+
 @media (min-width: 800px) {
   .insurance-main-text h4 {
     font-size: 20px;
   }
   .insurance-main-text h5 {
     font-size: 18px;
+  }
+  .insurance-video video {
+    max-height: 55vh;
   }
 }
