@@ -2,6 +2,10 @@
   position: relative;
 }
 
+.container {
+  overflow: visible;
+}
+
 .baner-img {
   height: 30vh;
 }
@@ -58,10 +62,15 @@
 
 @media (min-width: 800px) {
   .baner-img {
-    max-height: 75vh;
+    min-height: 55vh;
   }
 
   .portrait-image {
     left: 50%;
+  }
+
+  .portrait-image img {
+    width: 100%;
+    max-height: 350px;
   }
 }
