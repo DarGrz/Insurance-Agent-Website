@@ -16,8 +16,8 @@ function App() {
       <Navbar />
       <Header />
       <Routes>
-        <Route path="Insurance-Agent-Website/mycar" element={<MyCar />} />
-        <Route path="Insurance-Agent-Website/" element={<LifeHealth />} />
+        <Route path="/Insurance-Agent-Website/mycar" element={<MyCar />} />
+        <Route path="/Insurance-Agent-Website/" element={<LifeHealth />} />
         <Route path="/myhome" element={<MyHome />} />
         <Route path="/myfirm" element={<MyFirm />} />
       </Routes>
