@@ -1,20 +1,23 @@
 {
   "files": {
     "main.css": "/Insurance-Agent-Website/static/css/main.5b3b6092.css",
-    "main.js": "/Insurance-Agent-Website/static/js/main.420144b7.js",
+    "main.js": "/Insurance-Agent-Website/static/js/main.f72b7fd4.js",
     "static/js/787.fc0c6302.chunk.js": "/Insurance-Agent-Website/static/js/787.fc0c6302.chunk.js",
+    "static/media/company-insurance.mp4": "/Insurance-Agent-Website/static/media/company-insurance.70af755232dd14cd4367.mp4",
     "static/media/Drapacze Chmur - 91744.mp4": "/Insurance-Agent-Website/static/media/Drapacze Chmur - 91744.e8f3d0e6b5b656163fe0.mp4",
     "static/media/pexels-rodnae-productions-8230808.mp4": "/Insurance-Agent-Website/static/media/pexels-rodnae-productions-8230808.7e66a0729fb2b2f3b04b.mp4",
+    "static/media/house-insurance.mp4": "/Insurance-Agent-Website/static/media/house-insurance.7c24fd9d32140611fb93.mp4",
+    "static/media/lifeinsurance.mp4": "/Insurance-Agent-Website/static/media/lifeinsurance.95a1d06ee4be5a757936.mp4",
     "static/media/smart.webp": "/Insurance-Agent-Website/static/media/smart.00b3fb0355844821c91a.webp",
     "static/media/ziaja-logo.png": "/Insurance-Agent-Website/static/media/ziaja-logo.6ccc63a63e1f7b8e5d48.png",
     "static/media/gabi-temporary.jpg": "/Insurance-Agent-Website/static/media/gabi-temporary.4fa31b4d695842b90e12.jpg",
     "index.html": "/Insurance-Agent-Website/index.html",
     "main.5b3b6092.css.map": "/Insurance-Agent-Website/static/css/main.5b3b6092.css.map",
-    "main.420144b7.js.map": "/Insurance-Agent-Website/static/js/main.420144b7.js.map",
+    "main.f72b7fd4.js.map": "/Insurance-Agent-Website/static/js/main.f72b7fd4.js.map",
     "787.fc0c6302.chunk.js.map": "/Insurance-Agent-Website/static/js/787.fc0c6302.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5b3b6092.css",
-    "static/js/main.420144b7.js"
+    "static/js/main.f72b7fd4.js"
   ]
 }
