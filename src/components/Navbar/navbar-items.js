@@ -4,14 +4,14 @@ export default Logo;
 export const navLinks = [
   {
     title: "O mnie",
-    tag: "about",
+    tag: "#about",
   },
   {
     title: "Oferta",
-    tag: "services",
+    tag: "#services",
   },
   {
     title: "Kontakt",
-    tag: "contact",
+    tag: "#contact",
   },
 ];

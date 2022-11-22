@@ -1,8 +1,9 @@
 .navbar {
   width: 100%;
-  position: sticky;
+  position: fixed;
   opacity: 1;
   transition: all 0.3s ease-out;
+  z-index: 100;
 }
 
 .navbar.hide {

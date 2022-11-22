@@ -19,6 +19,7 @@
 
 .insurance-header {
   padding: 10px;
+  margin-bottom: 5%;
   display: grid;
   place-items: center;
   text-align: center;

@@ -5,7 +5,7 @@ import { FaMapMarkerAlt } from "react-icons/fa";
 
 const HeaderContact = () => {
   return (
-    <div className="header-contact">
+    <div className="header-contact" id="contact">
       <div className="container header-container ">
         <div className="contact-container">
           <div className="contact-icon">
@@ -36,6 +36,7 @@ const HeaderContact = () => {
           </div>
         </div>
       </div>
+      {/* <HeaderForm /> */}
     </div>
   );
 };

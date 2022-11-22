@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "./HeaderBaner.css";
 import { AiFillCar } from "react-icons/ai";
 import { BsFillHouseFill } from "react-icons/bs";
@@ -8,36 +8,33 @@ import { GiLifeBar } from "react-icons/gi";
 
 const HeaderBaner = () => {
   return (
-    <div className="header-baner">
+    <div className="header-baner" id="services">
       <div className="container insurance-icons">
-        <Link
+        <NavLink
           to="/Insurance-Agent-Website/mycar"
-          style={{ color: "rgba(255,255,255,1)" }}
+          activeClassName="active-link"
         >
           <AiFillCar className="car-icon" />
           <p>Mój samochód</p>
-        </Link>
-        <Link
-          to="/Insurance-Agent-Website/"
-          style={{ color: "rgba(255,255,255,1)" }}
-        >
+        </NavLink>
+        <NavLink to="/Insurance-Agent-Website/" activeClassName="active-link">
           <GiLifeBar className="lifebar-icon" />
           <p>Życie i zdrowie</p>
-        </Link>
-        <Link
+        </NavLink>
+        <NavLink
           to="/Insurance-Agent-Website/myhome"
-          style={{ color: "rgba(255,255,255,1)" }}
+          activeClassName="active-link"
         >
           <BsFillHouseFill className="house-icon" />
           <p>Mój dom</p>
-        </Link>
-        <Link
+        </NavLink>
+        <NavLink
           to="/Insurance-Agent-Website/myfirm"
-          style={{ color: "rgba(255,255,255,1)" }}
+          activeClassName="active-link"
         >
           <MdAddBusiness className="business-icon" />
           <p>Moja firma</p>
-        </Link>
+        </NavLink>
       </div>
     </div>
   );

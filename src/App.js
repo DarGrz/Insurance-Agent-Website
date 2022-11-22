@@ -2,6 +2,7 @@ import { Route, Routes } from "react-router-dom";
 import Navbar from "../src/components/Navbar/Navbar";
 import "./App.css";
 import About from "./components/About/About";
+
 import Footer from "./components/Footer/Footer";
 
 import Header from "./components/Header/Header";
@@ -10,8 +11,6 @@ import MyCar from "./components/Insurances/MyCar";
 import MyFirm from "./components/Insurances/MyFirm";
 import MyHome from "./components/Insurances/MyHome";
 import LineBreaker from "./UI/LineBreaker";
-
-const homePagePath = "https://dargrz.github.io/Insurance-Agent-Website/";
 
 function App() {
   return (
@@ -30,6 +29,8 @@ function App() {
       {/* Offer */}
 
       {/* Kontakt & Map */}
+      <LineBreaker />
+
       <Footer />
     </>
   );

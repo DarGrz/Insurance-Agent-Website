@@ -1,8 +1,9 @@
 .header-baner {
   background-color: rgba(39, 76, 119);
-  color: white;
+  color: rgba(255, 255, 255, 0.7);
   width: 100%;
   margin: 0 auto;
+  margin-bottom: 10%;
   display: flex;
   align-items: center;
 }
@@ -19,6 +20,17 @@
 
 .insurance-icons p {
   font-size: 12px;
+}
+
+a.active {
+  text-decoration: none;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 1);
+  transition: all 0.3 ease-in;
+}
+
+a:hover {
+  color: rgba(255, 255, 255, 1);
 }
 
 .car-icon,
