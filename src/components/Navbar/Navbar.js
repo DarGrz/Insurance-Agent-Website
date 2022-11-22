@@ -42,7 +42,9 @@ const Navbar = () => {
         <ul className={`nav-links ${nav && "active"}`}>
           {navLinks.map((link, i) => (
             <li key={i}>
-              <a href={"/#" + link.tag}>{link.title}</a>
+              <a href={"Insurance-Agent-Website" + "/#" + link.tag}>
+                {link.title}
+              </a>
             </li>
           ))}
         </ul>
