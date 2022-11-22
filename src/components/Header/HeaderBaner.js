@@ -24,11 +24,17 @@ const HeaderBaner = () => {
           <GiLifeBar className="lifebar-icon" />
           <p>Życie i zdrowie</p>
         </Link>
-        <Link to="myhome" style={{ color: "rgba(255,255,255,1)" }}>
+        <Link
+          to="/Insurance-Agent-Website/myhome"
+          style={{ color: "rgba(255,255,255,1)" }}
+        >
           <BsFillHouseFill className="house-icon" />
           <p>Mój dom</p>
         </Link>
-        <Link to="myfirm" style={{ color: "rgba(255,255,255,1)" }}>
+        <Link
+          to="/Insurance-Agent-Website/myfirm"
+          style={{ color: "rgba(255,255,255,1)" }}
+        >
           <MdAddBusiness className="business-icon" />
           <p>Moja firma</p>
         </Link>

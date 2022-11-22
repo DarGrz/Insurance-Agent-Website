@@ -18,8 +18,8 @@ function App() {
       <Routes>
         <Route path="/Insurance-Agent-Website/mycar" element={<MyCar />} />
         <Route path="/Insurance-Agent-Website/" element={<LifeHealth />} />
-        <Route path="/myhome" element={<MyHome />} />
-        <Route path="/myfirm" element={<MyFirm />} />
+        <Route path="/Insurance-Agent-Website//myhome" element={<MyHome />} />
+        <Route path="/Insurance-Agent-Website//myfirm" element={<MyFirm />} />
       </Routes>
 
       {/*About  */}
