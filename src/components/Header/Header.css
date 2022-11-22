@@ -49,6 +49,10 @@
   text-align: center;
 }
 
+.header-text h1 {
+  font-size: 26px;
+}
+
 /* .telephone {
   margin: 10px 0 5px 0;
 }
@@ -61,6 +65,10 @@
 } */
 
 @media (min-width: 800px) {
+  .header-text h1 {
+    font-size: 46px;
+  }
+
   .baner-img {
     min-height: 55vh;
   }
