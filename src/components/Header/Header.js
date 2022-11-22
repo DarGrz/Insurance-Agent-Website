@@ -17,6 +17,7 @@ const Header = () => {
             autoPlay={true}
             loop={true}
             muted
+            type="video/mp4"
           />
         </div>
         <div className="portrait-image container">
