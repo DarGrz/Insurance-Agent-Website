@@ -23,11 +23,17 @@ const Header = () => {
           />
         </div>
         <div className="portrait-image container">
-          <img src={portraitImage} alt="portrait" />
+          <motion.div
+            initial={{ opacity: 1, scale: 0.95 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 3, delay: 0.1 }}
+          >
+            <img src={portraitImage} alt="portrait" />
+          </motion.div>
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            transition={{ duration: 2, delay: 0.1 }}
+            transition={{ duration: 2 }}
           >
             <div className="header-text-bg">
               <div className="header-text">

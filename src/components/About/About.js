@@ -6,9 +6,15 @@ import "./About.css";
 const About = () => {
   return (
     <div className="about-container " id="about">
-      <div className="container">
+      <motion.div
+        className="container"
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        transition={{ duration: 1 }}
+      >
         <h2>Trochę o mnie ;)</h2>
-      </div>
+      </motion.div>
+
       <div className="container">
         <motion.div
           className="side-a"
