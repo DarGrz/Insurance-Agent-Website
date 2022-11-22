@@ -39,7 +39,7 @@ const Navbar = () => {
             <img src={Logo} alt="logo" />
           </li>
         </ul>
-        <ul className={`nav-links ${nav && "active"}`}>
+        <ul className={`nav-links ${nav && "active"}`} onClick={toggleNav}>
           {navLinks.map((link) => (
             <li key={link.tag}>
               <a href={link.tag}>{link.title}</a>

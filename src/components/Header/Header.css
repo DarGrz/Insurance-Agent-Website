@@ -10,13 +10,12 @@
   height: 30vh;
 }
 
-.baner-img img {
+.baner-img video {
   position: absolute;
   object-fit: cover;
   width: 100%;
   height: 100%;
-  filter: blur(1px);
-  filter: brightness(0.7);
+  filter: blur(2px);
 }
 
 .portrait-image {

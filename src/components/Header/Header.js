@@ -1,5 +1,6 @@
 import React from "react";
-import banerImg from "../../images/office-space.jpg";
+// import banerImg from "../../images/office-space.jpg";
+import banerVideo from "../../videos/Drapacze Chmur - 91744.mp4";
 import portraitImage from "../../images/gabi-temporary.jpg";
 import "./Header.css";
 import HeaderBaner from "./HeaderBaner";
@@ -10,7 +11,13 @@ const Header = () => {
     <>
       <div className="header">
         <div className="baner-img">
-          <img src={banerImg} alt="baner" />
+          <video
+            src={banerVideo}
+            alt="baner"
+            autoPlay={true}
+            loop={true}
+            muted
+          />
         </div>
         <div className="portrait-image container">
           <img src={portraitImage} alt="portrait" />
