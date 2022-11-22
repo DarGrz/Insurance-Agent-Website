@@ -10,11 +10,17 @@ const HeaderBaner = () => {
   return (
     <div className="header-baner">
       <div className="container insurance-icons">
-        <Link to="/mycar" style={{ color: "rgba(255,255,255,1)" }}>
+        <Link
+          to="/Insurance-Agent-Website/mycar"
+          style={{ color: "rgba(255,255,255,1)" }}
+        >
           <AiFillCar className="car-icon" />
           <p>Mój samochód</p>
         </Link>
-        <Link to="/" style={{ color: "rgba(255,255,255,1)" }}>
+        <Link
+          to="/Insurance-Agent-Website/"
+          style={{ color: "rgba(255,255,255,1)" }}
+        >
           <GiLifeBar className="lifebar-icon" />
           <p>Życie i zdrowie</p>
         </Link>
