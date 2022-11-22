@@ -8,14 +8,16 @@ import MyCar from "./components/Insurances/MyCar";
 import MyFirm from "./components/Insurances/MyFirm";
 import MyHome from "./components/Insurances/MyHome";
 
+const homePagePath = "https://dargrz.github.io/Insurance-Agent-Website/";
+
 function App() {
   return (
     <>
       <Navbar />
       <Header />
       <Routes>
-        <Route path="/mycar" element={<MyCar />} />
-        <Route path="/" element={<LifeHealth />} />
+        <Route path={`${homePagePath}/mycar`} element={<MyCar />} />
+        <Route path={`${homePagePath}/`} element={<LifeHealth />} />
         <Route path="/myhome" element={<MyHome />} />
         <Route path="/myfirm" element={<MyFirm />} />
       </Routes>
