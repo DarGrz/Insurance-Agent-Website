@@ -16,11 +16,11 @@ const Text = {
 const MyFirm = () => {
   return (
     <div className="insurance-container">
-      <div className="container insurance-header">
+      {/* <div className="container insurance-header">
         <h3>Moja Firma</h3>
-      </div>
+      </div> */}
 
-      <VideoBox video={FirmVideo} />
+      <VideoBox video={FirmVideo} title="Moja Firma" />
 
       <InsuranceCard
         className="container insurance-box"

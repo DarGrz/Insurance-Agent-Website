@@ -12,6 +12,9 @@ const VideoBox = (props) => {
         type="video/mp4"
         load
       />
+      <div className="insurance-main-text">
+        <h1>{props.title}</h1>
+      </div>
     </div>
   );
 };

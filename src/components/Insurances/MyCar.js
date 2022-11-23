@@ -16,11 +16,11 @@ const Text = {
 const MyCar = () => {
   return (
     <div className="insurance-container">
-      <div className="container insurance-header">
+      {/* <div className="container insurance-header">
         <h3>Mój Samochód</h3>
-      </div>
+      </div> */}
 
-      <VideoBox video={CarVideo} />
+      <VideoBox video={CarVideo} title="Mój Samochód" />
 
       <InsuranceCard
         className="container insurance-box"

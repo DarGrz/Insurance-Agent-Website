@@ -18,11 +18,11 @@ const Text = {
 const LifeHealth = () => {
   return (
     <div className="insurance-container">
-      <div className="container insurance-header">
+      {/* <div className="container insurance-header">
         <h3>Życie i Zdrowie</h3>
-      </div>
+      </div> */}
 
-      <VideoBox video={LifeVideo} />
+      <VideoBox video={LifeVideo} title="Życie i Zdrowie" />
 
       <InsuranceCard
         className="container insurance-box"

@@ -36,7 +36,9 @@ const Navbar = () => {
       <nav>
         <ul>
           <li className="logo">
-            <img src={Logo} alt="logo" />
+            <a href="/Insurance-Agent-Website/">
+              <img src={Logo} alt="logo" />
+            </a>
           </li>
         </ul>
         <ul className={`nav-links ${nav && "active"}`} onClick={toggleNav}>

@@ -17,11 +17,11 @@ const Text = {
 const MyHome = () => {
   return (
     <div className="insurance-container">
-      <div className="container insurance-header">
+      {/* <div className="container insurance-header">
         <h3>Mój Dom</h3>
-      </div>
+      </div> */}
 
-      <VideoBox video={HouseVideo} />
+      <VideoBox video={HouseVideo} title="Mój Dom" />
 
       <InsuranceCard
         className="container insurance-box"

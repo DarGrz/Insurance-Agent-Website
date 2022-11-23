@@ -10,7 +10,8 @@
 
 .insurance-box {
   background-color: rgba(231, 236, 239);
-  padding: 10px 5px;
+  padding: 20px 15px;
+  margin: 15px auto;
 }
 
 .insurance-main-text {
@@ -26,12 +27,25 @@
   text-align: center;
 }
 
+.insurance-video {
+  position: relative;
+}
+
 .insurance-video video {
   width: 100%;
   margin-bottom: 10px;
-  max-height: 30vh;
+  height: 25vh;
   object-fit: cover;
   object-position: center;
+  filter: brightness(0.4);
+}
+
+.insurance-main-text {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 @media (min-width: 800px) {
