@@ -19,12 +19,9 @@ const HeaderContact = () => {
             </a>
           </motion.div>
           <div className="contact">
-            <p>
-              <a href="tel:+48 555 5555 55">+48 555 5555 55</a>
-            </p>
-            <p>
-              <a href="mailto: mail@address.pl">adres@email.pl</a>
-            </p>
+            <a href="tel:+48 605 621 456">
+              <p>ZADZWOŃ</p>
+            </a>
           </div>
         </div>
         <div className="address-container">
@@ -34,13 +31,14 @@ const HeaderContact = () => {
             className="gps-icon"
           >
             <a href="https://goo.gl/maps/YqidpKvJRofyxR8r7">
-              <FaMapMarkerAlt />
+              <div>
+                <FaMapMarkerAlt />
+              </div>
             </a>
           </motion.div>
           <div className="address">
             <a href="https://goo.gl/maps/YqidpKvJRofyxR8r7">
-              <p>Tarnów 32-444</p>
-              <p>Równoległa 6a</p>
+              <p>NAWIGUJ</p>
             </a>
           </div>
         </div>

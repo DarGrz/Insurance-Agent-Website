@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import AllianzLogo from "../../images/alliazn-logo.png";
 
 const Info = (
   <div className="header-text">
@@ -15,7 +14,7 @@ const call = (
       Zadzwoń
     </h1>
     <h5>Umów spotkanie</h5>
-    <h4>W ALLIANZ</h4>
+    <h4>Z ALLIANZ</h4>
   </div>
 );
 

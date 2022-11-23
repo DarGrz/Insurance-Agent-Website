@@ -24,7 +24,7 @@ const Header = () => {
         </div>
         <div className="portrait-image container">
           <motion.div
-            initial={{ opacity: 1, scale: 0.95 }}
+            initial={{ opacity: 0.9, scale: 0.95 }}
             whileInView={{ opacity: 1, scale: 1 }}
             transition={{ duration: 3, delay: 0.1 }}
           >
@@ -37,8 +37,8 @@ const Header = () => {
           >
             <div className="header-text-bg">
               <motion.div
-                initial={{ opacity: 0, x: 200 }}
-                animate={{ opacity: 1, x: 0 }}
+                // initial={{ x: 200 }}
+                animate={{ x: [400, 0] }}
                 transition={{ duration: 2, repeatDelay: 9, repeat: Infinity }}
               >
                 <HeaderSlider reapeatDealay="9" parentDuration="2" />

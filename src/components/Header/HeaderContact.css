@@ -1,5 +1,6 @@
 .header-contact {
   background-color: rgba(96, 150, 186);
+  padding: 0 10px;
 }
 
 .header-container {
@@ -36,6 +37,16 @@ a {
   color: #fca311;
 }
 
+.contact-icon a:hover,
+.gps-icon a:hover {
+  color: #fca311;
+}
+
+.contact-icon:hover,
+.gps-icon:hover {
+  transform: scale(1.1);
+}
+
 .address-container {
   background-color: white;
   text-align: center;
@@ -65,7 +76,7 @@ a {
 
 @media (min-width: 800px) {
   a {
-    font-size: inherit;
+    font-size: 20px;
   }
   .contact-icon a,
   .gps-icon a {
