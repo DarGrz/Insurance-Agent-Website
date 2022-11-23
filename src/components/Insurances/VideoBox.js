@@ -10,7 +10,6 @@ const VideoBox = (props) => {
         autoPlay={true}
         muted
         type="video/mp4"
-        load
       />
       <div className="insurance-main-text">
         <h1>{props.title}</h1>

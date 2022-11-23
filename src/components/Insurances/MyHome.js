@@ -17,10 +17,6 @@ const Text = {
 const MyHome = () => {
   return (
     <div className="insurance-container">
-      {/* <div className="container insurance-header">
-        <h3>Mój Dom</h3>
-      </div> */}
-
       <VideoBox video={HouseVideo} title="Mój Dom" />
 
       <InsuranceCard
@@ -30,7 +26,6 @@ const MyHome = () => {
 
       <InsuranceCard
         className="container insurance-box"
-        style={{ backgroundColor: "rgba(163, 206, 241)" }}
         text={Text.text2}
       ></InsuranceCard>
 
@@ -38,11 +33,6 @@ const MyHome = () => {
         className="container insurance-box"
         text={Text.text3}
       ></InsuranceCard>
-      {/* <InsuranceCard
-        style={{ backgroundColor: "rgba(163, 206, 241)" }}
-        className="container insurance-box"
-        text={Text.text4}
-      ></InsuranceCard> */}
     </div>
   );
 };

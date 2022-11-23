@@ -4,7 +4,7 @@ import classes from "./InsuranceCard.module.css";
 const InsuranceCard = (props) => {
   return (
     <div className={`${classes.card} ${props.className}`} style={props.style}>
-      <p>&#x2714;&nbsp;</p>
+      <p style={{ color: "#fca311" }}>&#x2714;&nbsp;</p>
       <p>{props.text}</p>
       {props.children}
     </div>

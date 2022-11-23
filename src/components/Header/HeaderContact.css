@@ -24,6 +24,7 @@ a {
   align-items: center;
   justify-content: space-evenly;
   padding: 15px 0;
+  margin: 20px 0;
 }
 
 .contact-icon,
@@ -32,6 +33,7 @@ a {
   margin-right: 5px;
   display: grid;
   place-items: center;
+  color: #fca311;
 }
 
 .address-container {
@@ -42,6 +44,12 @@ a {
   align-items: center;
   justify-content: space-evenly;
   padding: 15px 0;
+  margin: 20px 0;
+}
+
+.address-container p,
+.contact-container p {
+  color: #333;
 }
 
 a {

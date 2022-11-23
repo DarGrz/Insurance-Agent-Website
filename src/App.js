@@ -2,9 +2,7 @@ import { Route, Routes } from "react-router-dom";
 import Navbar from "../src/components/Navbar/Navbar";
 import "./App.css";
 import About from "./components/About/About";
-
 import Footer from "./components/Footer/Footer";
-
 import Header from "./components/Header/Header";
 import LifeHealth from "./components/Insurances/LifeHealth";
 import MyCar from "./components/Insurances/MyCar";
@@ -24,6 +22,9 @@ function App() {
         <Route path="/Insurance-Agent-Website/myfirm" element={<MyFirm />} />
       </Routes>
       <LineBreaker />
+
+      {/* Slider Osiągnięcia */}
+
       <About />
 
       {/* Offer */}

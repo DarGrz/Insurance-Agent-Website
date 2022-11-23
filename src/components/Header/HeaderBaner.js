@@ -18,7 +18,7 @@ const HeaderBaner = () => {
         >
           <NavLink
             to="/Insurance-Agent-Website/mycar"
-            activeClassName="active-link"
+            activeclassname="active-link"
           >
             <AiFillCar className="car-icon" />
             <p>Mój samochód</p>
@@ -30,7 +30,7 @@ const HeaderBaner = () => {
           whileInView={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.4, delay: 0.1 }}
         >
-          <NavLink to="/Insurance-Agent-Website/" activeClassName="active-link">
+          <NavLink to="/Insurance-Agent-Website/" activeclassname="active-link">
             <GiLifeBar className="lifebar-icon" />
             <p>Życie i zdrowie</p>
           </NavLink>
@@ -43,7 +43,7 @@ const HeaderBaner = () => {
         >
           <NavLink
             to="/Insurance-Agent-Website/myhome"
-            activeClassName="active-link"
+            activeclassname="active-link"
           >
             <BsFillHouseFill className="house-icon" />
             <p>Mój dom</p>
@@ -57,7 +57,7 @@ const HeaderBaner = () => {
         >
           <NavLink
             to="/Insurance-Agent-Website/myfirm"
-            activeClassName="active-link"
+            activeclassname="active-link"
           >
             <MdAddBusiness className="business-icon" />
             <p>Moja firma</p>

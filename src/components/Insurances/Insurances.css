@@ -1,6 +1,5 @@
 .insurance-container {
   margin: 0 auto;
-  width: 100%;
   padding: 10px;
 }
 .container {
@@ -9,14 +8,13 @@
 }
 
 .insurance-box {
-  background-color: rgba(231, 236, 239);
+  /* background-color: rgba(231, 236, 239); */
+  margin-top: 20px;
   padding: 20px 15px;
-  margin: 15px auto;
 }
 
 .insurance-main-text {
   text-align: center;
-  width: 100%;
 }
 
 .insurance-header {

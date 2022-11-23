@@ -18,10 +18,6 @@ const Text = {
 const LifeHealth = () => {
   return (
     <div className="insurance-container">
-      {/* <div className="container insurance-header">
-        <h3>Życie i Zdrowie</h3>
-      </div> */}
-
       <VideoBox video={LifeVideo} title="Życie i Zdrowie" />
 
       <InsuranceCard
@@ -31,7 +27,6 @@ const LifeHealth = () => {
 
       <InsuranceCard
         className="container insurance-box"
-        style={{ backgroundColor: "rgba(163, 206, 241)" }}
         text={Text.text2}
       ></InsuranceCard>
 

@@ -6,6 +6,7 @@ import portraitImage from "../../images/gabi-temporary.jpg";
 import "./Header.css";
 import HeaderBaner from "./HeaderBaner";
 import HeaderContact from "./HeaderContact";
+import HeaderSlider from "./HeaderSlider";
 
 const Header = () => {
   return (
@@ -19,7 +20,6 @@ const Header = () => {
             autoPlay={true}
             muted
             type="video/mp4"
-            load
           />
         </div>
         <div className="portrait-image container">
@@ -36,11 +36,13 @@ const Header = () => {
             transition={{ duration: 2 }}
           >
             <div className="header-text-bg">
-              <div className="header-text">
-                <h1>Gabriela Ziaja</h1>
-                <h5>AGENT UBEZPIECZENIOWY</h5>
-                <h4>W ALLIANZ</h4>
-              </div>
+              <motion.div
+                initial={{ opacity: 0, x: 200 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ duration: 2, repeatDelay: 9, repeat: Infinity }}
+              >
+                <HeaderSlider reapeatDealay="9" parentDuration="2" />
+              </motion.div>
             </div>
           </motion.div>
         </div>
