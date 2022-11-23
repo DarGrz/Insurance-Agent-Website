@@ -41,7 +41,10 @@ const Navbar = () => {
             </a>
           </li>
         </ul>
-        <ul className={`nav-links ${nav && "active"}`} onClick={toggleNav}>
+        <ul
+          className={`nav-links ${nav && "active"}`}
+          onClick={() => setNav(false)}
+        >
           {navLinks.map((link) => (
             <li key={link.tag}>
               <a href={link.tag}>{link.title}</a>
