@@ -32,7 +32,7 @@ a {
 .gps-icon {
   font-size: 24px;
   margin-right: 5px;
-  display: grid;
+  display: flex;
   place-items: center;
   color: #fca311;
 }
@@ -72,6 +72,7 @@ a {
 .contact-icon a,
 .gps-icon a {
   font-size: 24px;
+  display: flex;
 }
 
 @media (min-width: 800px) {

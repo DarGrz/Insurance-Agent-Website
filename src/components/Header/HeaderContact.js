@@ -31,9 +31,7 @@ const HeaderContact = () => {
             className="gps-icon"
           >
             <a href="https://goo.gl/maps/YqidpKvJRofyxR8r7">
-              <div>
-                <FaMapMarkerAlt />
-              </div>
+              <FaMapMarkerAlt />
             </a>
           </motion.div>
           <div className="address">

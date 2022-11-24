@@ -36,13 +36,9 @@ const Header = () => {
             transition={{ duration: 2 }}
           >
             <div className="header-text-bg">
-              <motion.div
-                // initial={{ x: 200 }}
-                animate={{ x: [400, 0] }}
-                transition={{ duration: 2, repeatDelay: 9, repeat: Infinity }}
-              >
-                <HeaderSlider reapeatDealay="9" parentDuration="2" />
-              </motion.div>
+              <div>
+                <HeaderSlider />
+              </div>
             </div>
           </motion.div>
         </div>
