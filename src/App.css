@@ -8,7 +8,6 @@
 }
 
 body {
-  height: 100%;
   font-family: "Poppins", sans-serif;
 }
 
@@ -37,4 +36,8 @@ body {
   background-color: rgb(231, 236, 239);
   font-size: 20px;
   color: rgba(39, 76, 119);
+}
+
+img {
+  width: 100%;
 }

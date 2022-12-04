@@ -3,13 +3,13 @@ import Navbar from "../src/components/Navbar/Navbar";
 import "./App.css";
 import About from "./components/About/About";
 import Footer from "./components/Footer/Footer";
-
 import Header from "./components/Header/Header";
 import LifeHealth from "./components/Insurances/LifeHealth";
 import MyCar from "./components/Insurances/MyCar";
 import MyFirm from "./components/Insurances/MyFirm";
 import MyHome from "./components/Insurances/MyHome";
 import LineBreaker from "./UI/LineBreaker";
+import Credentials from "./components/Credentials/Credentials";
 
 function App() {
   return (
@@ -32,7 +32,7 @@ function App() {
 
       {/* Kontakt & Map */}
       <LineBreaker />
-
+      <Credentials />
       <Footer />
     </>
   );
