@@ -48,7 +48,7 @@ const CREDENTIALS = [
 const Credentials = () => {
   return (
     <div className="credentials">
-      <div className="container">
+      <div className="container credentials-header">
         <h3>Credentials</h3>
       </div>
       <div className="container">
