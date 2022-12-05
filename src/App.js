@@ -33,6 +33,7 @@ function App() {
       {/* Kontakt & Map */}
       <LineBreaker />
       <Credentials />
+      <LineBreaker />
       <Footer />
     </>
   );

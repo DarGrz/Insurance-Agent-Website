@@ -1,6 +1,7 @@
 import Card from "../../UI/Card";
 import React from "react";
 import "./Credentials.css";
+import { AiFillStar } from "react-icons/ai";
 
 const CREDENTIALS = [
   {
@@ -60,7 +61,13 @@ const Credentials = () => {
               </h5>
               <img src={person.image} alt="person" />
               <p>{person.text}</p>
-              <span>{person.rating} Here will be stars</span>
+              <div className="stars">
+                <AiFillStar />
+                <AiFillStar />
+                <AiFillStar />
+                <AiFillStar />
+                <AiFillStar />
+              </div>
             </Card>
           ))}
         </div>
