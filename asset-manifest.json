@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Insurance-Agent-Website/static/css/main.c7c178c4.css",
+    "main.css": "/Insurance-Agent-Website/static/css/main.3b2ebed3.css",
     "main.js": "/Insurance-Agent-Website/static/js/main.92001ab1.js",
     "static/js/787.fc0c6302.chunk.js": "/Insurance-Agent-Website/static/js/787.fc0c6302.chunk.js",
     "static/media/company-insurance.mp4": "/Insurance-Agent-Website/static/media/company-insurance.70af755232dd14cd4367.mp4",
@@ -12,12 +12,12 @@
     "static/media/ziaja-logo.png": "/Insurance-Agent-Website/static/media/ziaja-logo.6ccc63a63e1f7b8e5d48.png",
     "static/media/gabi-temporary.jpg": "/Insurance-Agent-Website/static/media/gabi-temporary.4fa31b4d695842b90e12.jpg",
     "index.html": "/Insurance-Agent-Website/index.html",
-    "main.c7c178c4.css.map": "/Insurance-Agent-Website/static/css/main.c7c178c4.css.map",
+    "main.3b2ebed3.css.map": "/Insurance-Agent-Website/static/css/main.3b2ebed3.css.map",
     "main.92001ab1.js.map": "/Insurance-Agent-Website/static/js/main.92001ab1.js.map",
     "787.fc0c6302.chunk.js.map": "/Insurance-Agent-Website/static/js/787.fc0c6302.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c7c178c4.css",
+    "static/css/main.3b2ebed3.css",
     "static/js/main.92001ab1.js"
   ]
 }
