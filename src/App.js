@@ -10,6 +10,7 @@ import MyFirm from "./components/Insurances/MyFirm";
 import MyHome from "./components/Insurances/MyHome";
 import LineBreaker from "./UI/LineBreaker";
 import Credentials from "./components/Credentials/Credentials";
+import Firms from "./components/Firms/Firms";
 
 function App() {
   return (
@@ -33,6 +34,8 @@ function App() {
       {/* Kontakt & Map */}
       <LineBreaker />
       <Credentials />
+      <LineBreaker />
+      <Firms />
       <LineBreaker />
       <Footer />
     </>
