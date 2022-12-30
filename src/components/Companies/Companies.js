@@ -1,7 +1,7 @@
 import React from "react";
-import "./Firms.css";
+import "./Companies.css";
 
-const Firms = () => {
+const Companies = () => {
   return (
     <div className="firms-container">
       <div className="container firms">
@@ -18,4 +18,4 @@ const Firms = () => {
   );
 };
 
-export default Firms;
+export default Companies;

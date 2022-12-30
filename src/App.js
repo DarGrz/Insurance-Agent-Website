@@ -10,7 +10,7 @@ import MyFirm from "./components/Insurances/MyFirm";
 import MyHome from "./components/Insurances/MyHome";
 import LineBreaker from "./UI/LineBreaker";
 import Credentials from "./components/Credentials/Credentials";
-import Firms from "./components/Firms/Firms";
+import Companies from "./components/Companies/Companies";
 
 function App() {
   return (
@@ -35,7 +35,7 @@ function App() {
       <LineBreaker />
       <Credentials />
       <LineBreaker />
-      <Firms />
+      <Companies />
       <LineBreaker />
       <Footer />
     </>
