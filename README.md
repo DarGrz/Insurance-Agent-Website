@@ -7,3 +7,12 @@
 <li>Services display: The website highlights the services offered by the agent, including different types of insurance policies.</li>
 <li>Contact form: The website includes a contact form that allows potential clients to get in touch with the agent directly(in progress)</li>
 </ul>
+</hr>
+<h3>Stack</h3>
+<ul>
+<li>HTML</li>
+<li>CSS</li>
+<li>JS</li>
+<li>React.js</li>
+<li>React Router DOM</li>
+</ul>
